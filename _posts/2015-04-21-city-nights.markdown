@@ -1,15 +1,16 @@
 ---
-title:  "Night Life in Berlin"
-subtitle: "From Club to Club"
-country: "Germany"
-image: "assets/images/b.jpg"
-date:   2015-04-21 12:12:12
-layout: post
-categories: [Berlin]
+title: Night Life in Berlin
+date: 2015-04-21 12:12:12 Z
+categories:
+- Berlin
 tags:
-  - Friedrichshein
-  - Berlin
-  - Germany
+- Friedrichshein
+- Berlin
+- Germany
+subtitle: From Club to Club
+country: Germany
+image: assets/images/b.jpg
+layout: post
 ---
 
 ### Dolor sit amet?

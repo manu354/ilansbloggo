@@ -1,56 +1,49 @@
-#Site
+---
 title: Ilan's Bloggo
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 description: This is Ilan's home.
 logo: favicon.png
 url: blog.manumasson.com
 image: assets/images/bg.jpg
-rss_url: /feed.xml
-
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
+rss_url: "/feed.xml"
+permalink: "/blog/:title/"
+markdown: kramdown
+highlighter: rouge
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 sass:
-  sass_dir:         assets/_sass
-  style:            compressed
-
-# Social Links
-email:               ilan354@gmail.com
-#google.plus:        username
-#twitter:            username
-facebook:            IlanMasson
-github:              IlanMasson
-stackoverflow:      6438519/Ilan-Masson   #from a "http://stackoverflow.com/users/123456/username" link
-linkedin:           MassonIlan
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-#behance:           username
-
-# Gems
+  sass_dir: assets/_sass
+  style: compressed
+email: ilan354@gmail.com
+facebook: IlanMasson
+github: IlanMasson
+stackoverflow: 6438519/Ilan-Masson
+linkedin: MassonIlan
 gems:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile,.sass-cache,.DS_Store,.idea]
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-gist
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- _site
+- src
+- vendor
+- CNAME
+- LICENSE
+- Rakefile
+- ".sass-cache"
+- ".DS_Store"
+- ".idea"

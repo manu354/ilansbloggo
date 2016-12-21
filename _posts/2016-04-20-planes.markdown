@@ -1,13 +1,12 @@
 ---
-title:  "Planes Are DeWeZy!"
-subtitle: "But I Don't Like the Food"
-country: "Russia"
-image: "assets/images/a.jpg"
-date:   2016-04-20 12:12:12
-
-layout: post
+title: Planes Are DeWeZy!
+date: 2016-04-20 12:12:12 Z
 tags:
-  - Russia
+- Russia
+subtitle: But I Don't Like the Food
+country: Russia
+image: assets/images/a.jpg
+layout: post
 ---
 
 ### Dolor sit amet?

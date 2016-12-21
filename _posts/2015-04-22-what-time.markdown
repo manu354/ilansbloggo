@@ -1,15 +1,16 @@
 ---
-title:  "Missing my Flight to India"
-subtitle: "What the fuck am I going to do?"
-country: "India"
-image: "assets/images/c.jpg"
-date:   2015-04-22 12:12:12
-layout: post
-categories: [Berlin]
+title: Missing my Flight to India
+date: 2015-04-22 12:12:12 Z
+categories:
+- Berlin
 tags:
-  - Friedrichshein
-  - Berlin
-  - Germany
+- Friedrichshein
+- Berlin
+- Germany
+subtitle: What the fuck am I going to do?
+country: India
+image: assets/images/c.jpg
+layout: post
 ---
 
 ### Dolor sit amet?

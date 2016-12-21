@@ -1,7 +1,7 @@
 ---
+title: Blog of Ilan
+permalink: "/blog/"
 layout: post-list
-title:  Blog of Ilan
-description: "List of posts"
-permalink: /blog/
+description: List of posts
 ---
 

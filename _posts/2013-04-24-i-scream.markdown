@@ -1,16 +1,18 @@
 ---
-title:  "4WD in Athens"
-subtitle: "The best thing eva"
-country: "Greece"
-image: "assets/images/e.jpg"
-date:   2013-04-24 12:12:12
-layout: post
-categories: [Berlin]
+title: 4WD in Athens
+date: 2013-04-24 12:12:12 Z
+categories:
+- Berlin
 tags:
-  - Friedrichshein
-  - Berlin
-  - Germany
+- Friedrichshein
+- Berlin
+- Germany
+subtitle: The best thing eva
+country: Greece
+image: assets/images/e.jpg
+layout: post
 ---
+
 # Installation
 ---
 
