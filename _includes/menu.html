@@ -1,0 +1,38 @@
+<body>
+<section id="menu">
+    <div id="mySidenav" class="sidenav">
+
+        <a href="#">Home</a>
+        <a href="/"
+            {% if page.url == "/" %}
+                style="color: #62B3E5"
+            {% endif %}>
+            Blog
+        </a>
+            <div id="m_blog-posts">
+                {% for post in site.posts %}
+                    <a href="{{post.url}}"
+                       {% if post.url == page.url %}
+                            style="color: #62B3E5"
+                       {% endif %}>
+                        {{post.country}}
+                    </a>
+                {% endfor %}
+
+            </div>
+        <a href="#">Contact</a>
+
+    </div>
+
+    <div id="main" onclick="openCloseNav()">
+
+        <span id="menu-bars" style="font-size:30px;cursor:pointer">
+
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </span>
+
+    </div>
+</section>

@@ -1,0 +1,67 @@
+---
+title:  "4WD in Athens"
+subtitle: "The best thing eva"
+country: "Greece"
+image: "assets/images/e.jpg"
+date:   2013-04-24 12:12:12
+layout: post
+categories: [Berlin]
+tags:
+  - Friedrichshein
+  - Berlin
+  - Germany
+---
+# Installation
+---
+
+* Fork the repository. <a class="github-button" href="https://github.com/songkong/Blog/fork" data-count-href="/songkong/Blog/network" data-count-api="/repos/songkong/Blog#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork songkong/Blog on GitHub">Fork</a>
+* Edit `_config.yml` file.
+* Edit `About me` content in `index.html`.
+* Add your own `projects` in `_includes/projects.html`.
+* Change `domain name` in `CNAME`.
+* Add your own `disqus` code in `_includes/comments.html`.
+* The last two scripts in `assets/js/script.js` offer Google Analytics and Baidu Analytics. You can replace them with your own codes.
+
+# Style test
+---
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+>### Heading 3 in Blockquotes
+>Normal Blockquotes text.
+>
+>* Unordered List in Blockquotes.
+>
+>1. Ordered List in Blockquotes.
+
+* Unordered List.
+	* Unordered List.
+
+1. Ordered List
+	1. Ordered List
+	2. Ordered List
+2. Ordered List
+
+{% highlight ruby %}
+// Ruby codes
+
+require 'parallel'
+
+Parallel.map(lots_of_data) do |chunk|
+  heavy_computation(chunk)
+end
+{% endhighlight %}
+
+
+
+

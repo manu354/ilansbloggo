@@ -1,0 +1,43 @@
+<style>
+    .title {
+        font-size: 100px;
+        font-family: "ab";
+        text-align: center;
+        vertical-align: middle;
+        color : white;
+        margin-top : 12vh;
+        line-height: 100%;
+
+    }
+
+    #subtitle {
+        font-size: 70px;
+        font-family: "ab";
+        text-align: center;
+        vertical-align: middle;
+        color : white;
+        margin-top: -10px;
+    }
+
+</style>
+<section id="banner" style="background-image: url({{site.url}}/{{ page.image }});">
+
+    <div class="wrapper">
+
+        <h1 class="title"> {{page.title}} </h1>
+        <div class="line-highlight white"><i class="fa fa-paw" aria-hidden="true"></i></div>
+        <h2 id="subtitle"> {{page.subtitle}}</h2>
+
+        <span class="scroll-btn desktop-only">
+			<a href="#article">
+				<span class="mouse">
+					<span>
+					</span>
+				</span>
+			</a>
+			<p>scroll me</p>
+		</span>
+
+    </div>
+    <!--<img id="logo" width="600px" src="../../assets/images/loggo.png">-->
+</section>
