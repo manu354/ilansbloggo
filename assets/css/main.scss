@@ -37,12 +37,12 @@ $on-laptop:        800px;
 /*FONTS*/
 @font-face {
         font-family: 'ab';
-        src: url('{{ site.url }}/assets/fonts/adelle-extrabold-webfont.eot'); /* IE9 Compat Modes */
-        src: url('{{ site.url }}/assets/fonts/adelle-extrabold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('{{ site.url }}/assets/fonts/adelle-extrabold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-        url('{{ site.url }}/assets/fonts/adelle-extrabold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-        url('{{ site.url }}/assets/fonts/adelle-extrabold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-        url('{{ site.url }}/assets/fonts/adelle-extrabold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+        src: url('{{ site.baseurl }}/assets/fonts/adelle-extrabold-webfont.eot'); /* IE9 Compat Modes */
+        src: url('{{ site.baseurl }}/assets/fonts/adelle-extrabold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('{{ site.baseurl }}/assets/fonts/adelle-extrabold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+        url('{{ site.baseurl }}/assets/fonts/adelle-extrabold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+        url('{{ site.baseurl }}/assets/fonts/adelle-extrabold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('{{ site.baseurl }}/assets/fonts/adelle-extrabold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
