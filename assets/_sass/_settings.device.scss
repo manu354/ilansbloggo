@@ -1,7 +1,4 @@
 @include media-query($on-laptop) {
-  #banner {
-    height: 230px;
-  }
   .wrapper {
     //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width: 770px;
@@ -13,9 +10,6 @@
   .posts-list>li .date {
     display: block;
     float: none;
-  }
-  #banner {
-    height: 180px;
   }
   .post-title {
 	max-width: 100%;
