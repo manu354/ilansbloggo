@@ -32,11 +32,6 @@ section {
  * Site banner
  */
 
-#banner {
-  background-color: $light-blue;
-  padding-bottom: 0;
-  height: 330px;
-  overflow: hidden;
   .wrapper {
     height: 100%;
     position: relative;
@@ -45,7 +40,6 @@ section {
       bottom: 0;
     }
   }
-}
 
 /**
  * About me

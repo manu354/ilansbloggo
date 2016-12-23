@@ -1,12 +1,63 @@
 <head>
+  <style>
+    body {
+      margin: 0;
+    }
+    #menu {
+      display: none;
+    }
+    .scroll-btn {
+      display: none;
+    }
+    #logo_container {
+      margin-top: 20vh;
+    }
+    #logo {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      bottom:50%
+    }
+
+    #banner{
+      background-color: #C4E8F8;
+      padding-bottom: 0;
+      height: 100vh;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #ilan {
+      font-size: 100px;
+      font-family: "Arial Black", Gadget, sans-serif;
+      text-align: center;
+      vertical-align: middle;
+      color : white;
+      margin: 0;
+    }
+
+    #logo {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      width: 500px;
+      margin-top: -20px;
+      margin-left: -250px; /* Half the width */
+    }
+  </style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/cards.css"/>
+
+  <link rel="preload" href="/assets/css/main.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/main.css"></noscript>
+
+  <link rel="preload" href="assets/css/cards.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/css/cards.css"></noscript>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

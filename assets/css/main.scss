@@ -55,26 +55,19 @@ $on-laptop:        800px;
         url('../fonts/adelle-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-
-
-/*BANNNER*/
 #ilan {
-        font-size: 100px;
-        font-family: "ab";
-        text-align: center;
-        vertical-align: middle;
-        color : white;
-        margin: 0;
+        font-family: "ab", sans-serif;
 }
 
-#logo {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        width: 500px;
-        margin-top: -20px;
-        margin-left: -250px; /* Half the width */
+#menu {
+        display: block;
 }
+
+.scroll-btn {
+        display: block;
+}
+/*BANNNER*/
+
 
 @media screen and (max-width: 600px) {
         #logo {
@@ -104,13 +97,8 @@ $on-laptop:        800px;
         }
 }
 
-#banner {
-        height: 100vh;
-}
 
-#logo_container {
-        margin-top: 20vh;
-}
+
 
 /*MOUSE SCROL WEEL*/
 
