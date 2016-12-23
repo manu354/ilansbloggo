@@ -174,10 +174,11 @@ $on-laptop:        800px;
 .scroll-btn {
         display: block;
         position: absolute;
-        left: 0;
+        bottom: 0;
         right: 0;
+        left : 0;
         text-align: center;
-        margin-top: 18vh;
+        margin-bottom: 4vh;
 }
 .scroll-btn > * {
         display: inline-block;

@@ -4,30 +4,33 @@
         <!-- cards -->
         <div class="wrapper">
             {% for post in site.posts %}
+
+            <a class="cardLink" href="{{ post.url }}">
+
             <div class="card" data-id="{{ post.id }}">
-                <div class="card__container card__container--closed">
-                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
-                         preserveAspectRatio="xMidYMid slice">
-                        <defs>
-                            <clipPath id="{{ post.id }}-clip-path">
-                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
-                            </clipPath>
-                        </defs>
-                        <a class="cardLink" href="{{ post.url }}">
-                        <image class="cardI" clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
-                               xlink:href="{{ post.image }}"></image>
-                        </a>
-                    </svg>
-                    <div class="card__content">
-                        <div class="card__caption">
-                            <h1 class="card__overlay __fI" style="z-index: 999">{{post.country}}</h1>
-                            <h2 class="card__title __fO">{{ post.title }}</h2>
-                            <p class="card__subtitle __fO">{{ post.subtitle }}</p>
+                    <div class="card__container card__container--closed">
+                        <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
+                             preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <clipPath id="{{ post.id }}-clip-path">
+                                    <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+                                </clipPath>
+                            </defs>
+                            <image class="cardI" clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                                   xlink:href="{{ post.image }}"></image>
+                        </svg>
+
+                        <div class="card__content">
+                            <div class="card__caption">
+                                <h1 class="card__overlay __fI" style="z-index: 999">{{post.country}}</h1>
+                                <h2 class="card__title __fO">{{ post.title }}</h2>
+                                <p class="card__subtitle __fO">{{ post.subtitle }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
             {% endfor %}
             <!-- /cards -->
         </div>

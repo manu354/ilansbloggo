@@ -12,20 +12,6 @@ function display () {
 		$("#top").fadeOut(300);
     }
 }
-
-
-/* 
-* Baidu analytics
-*/
-
-var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?5b31ffbbdc6cff18727f3adf75a03777";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-	
 /* 
 * Google analytics
 */
