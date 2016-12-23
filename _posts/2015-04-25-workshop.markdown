@@ -1,15 +1,16 @@
 ---
-title:  "Interior of Berlin Apartment"
-subtitle: "You can't get any more hip"
-country: "Greece"
-image: "assets/images/f.jpg"
-date:   2015-04-25 12:12:12
-layout: post
-categories: [Berlin]
+title: Interior of Berlin Apartment
+date: 2015-04-25 12:12:12 Z
+categories:
+- Berlin
 tags:
-  - Friedrichshein
-  - Berlin
-  - Germany
+- Friedrichshein
+- Berlin
+- Germany
+subtitle: You can't get any more hip
+country: Greece
+image: assets/images/f.jpg
+layout: post
 ---
 
 ### Dolor sit amet?

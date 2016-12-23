@@ -1,15 +1,16 @@
 ---
-title:  "Stargazing in Holland"
-subtitle: "A shooting star!"
-country: "Holland"
-image: "assets/images/d.jpg"
-date:   2015-04-23 12:12:12
-layout: post
-categories: [Berlin]
+title: Stargazing in Holland
+date: 2015-04-23 12:12:12 Z
+categories:
+- Berlin
 tags:
-  - Friedrichshein
-  - Berlin
-  - Germany
+- Friedrichshein
+- Berlin
+- Germany
+subtitle: A shooting star!
+country: Holland
+image: assets/images/d.jpg
+layout: post
 ---
 
 ### Dolor sit amet?
