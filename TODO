@@ -7,12 +7,3 @@
 - Enable scroll to effects (maybe)
 
 - Remove meta country by using first tag instead
-
-Post - Design:
-
- - Google page speed 90+
-  - Only primaray css needed is banner full height, bg color, text centering
-
- - Google analytics
-
- - Host GHP
