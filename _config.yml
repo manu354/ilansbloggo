@@ -1,6 +1,7 @@
 ---
 title: Ilan's Bloggo
 timezone: UTC
+PAGES_REPO_NWO : ilansbloggo
 collections:
   posts:
     title: Posts
