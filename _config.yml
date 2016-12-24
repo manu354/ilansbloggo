@@ -29,8 +29,10 @@ sass:
 email: ilan354@gmail.com
 compress_html:
   clippings: all
-  comments:  ["<!-- ", " -->"]
-  endings:   all
+  comments:
+  - "<!-- "
+  - " -->"
+  endings: all
 facebook: IlanMasson
 github: IlanMasson
 stackoverflow: 6438519/Ilan-Masson
