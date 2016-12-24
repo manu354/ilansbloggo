@@ -22,6 +22,7 @@
     #banner{
       background-color: #C4E8F8;
       padding-bottom: 0;
+      padding-top: 30px;
       height: 100vh;
       overflow: hidden;
       background-repeat: no-repeat;
@@ -52,12 +53,16 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <link rel="preload" href="/assets/css/cards.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/cards.css"></noscript>
 
-  <link rel="preload" href="assets/css/main.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="assets/css/main.css"></noscript>
+  <link rel="preload" href="/assets/css/main.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/main.css"></noscript>
 
-  <link rel="preload" href="assets/css/cards.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="assets/css/cards.css"></noscript>
+  <script async defer src="/assets/js/jquery.min.js"></script>
+  <script async defer src="/assets/js/js.js"></script>
+  <script async defer src="/assets/js/jPages.js"></script>
+  <script async defer src="/assets/js/script.js"></script>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

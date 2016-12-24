@@ -321,7 +321,7 @@ a:focus {
 
 /* cards wrapper and close btn */
 
-.wrapper {
+.card-wrapper {
 	overflow: auto;
 	width: 95%;
 	max-width: 1366px;
