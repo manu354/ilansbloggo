@@ -1,7 +1,6 @@
 ---
 title: Ilan's Bloggo
 timezone: UTC
-PAGES_REPO_NWO : ilansbloggo
 collections:
   posts:
     title: Posts
@@ -9,6 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+PAGES_REPO_NWO: ilansbloggo
 description: This is Ilan's home.
 logo: favicon.png
 url: ilansbloggo.manumasson.com
